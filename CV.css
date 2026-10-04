@@ -1,0 +1,185 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f4f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+body {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 45px 55px;
+    background-color: white;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 0;
+    color: #123c8c;
+    letter-spacing: 1px;
+}
+
+h2 {
+    color: #16805f;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    margin-top: 20px;
+    color: #123c8c;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #e2e6ea;
+    margin: 18px 0;
+}
+
+table {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    
+    
+}
+
+td {
+    vertical-align: middle;
+}
+
+td p {
+    margin: 5px 5px 5px 0;
+    font-size: 18px;
+    background-color: #eef4ff;
+    color: #123c8c;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+td img {
+    width: 170px;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 3px solid #123c8c;
+}
+
+p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+h2 + p,
+h2 + p + p {
+    display: inline-block;
+    background-color: #eef4ff;
+    color: #123c8c;
+    padding: 8px 15px;
+    margin: 5px 5px 5px 0;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+h2:nth-of-type(2) + p {
+    background-color: #f4faf7;
+    border-left: 4px solid #16805f;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+
+ul {
+    padding-left: 30px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+
+h3 font[color="blue"] {
+    color: #123c8c !important;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h3 + ul {
+    margin-bottom: 18px;
+    font-size: 18px;
+}
+
+h3 + ul li {
+    color: #444;
+}
+
+h3 font[color="green"] {
+    color: #16805f !important;
+}
+
+h3:hover {
+    color: #16805f;
+    transition: 0.3s;
+}
+
+
+@media (max-width: 700px) {
+
+    body {
+        margin: 10px;
+        padding: 25px 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    table,
+    tbody,
+    tr,
+    td {
+        display: block;
+        width: 100%;
+    }
+
+    td:first-child {
+        margin-bottom: 20px;
+    }
+
+    td[align="center"] {
+        text-align: left;
+    }
+
+    td img {
+        width: 140px;
+        height: 175px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    h3 {
+        font-size: 17px;
+    }
+}
